@@ -1,0 +1,109 @@
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Basic Setup and How to use Notes.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git checkout contact.html
+Updated 0 paths from the index
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Basic Setup and How to use Notes.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git checkout contact.html
+Updated 1 path from the index
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Basic Setup and How to use Notes.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   about.html
+        deleted:    elements.htm
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Basic Setup and How to use Notes.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git checkout -f
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Basic Setup and How to use Notes.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git log
+commit 5e528bf07199fa4fda0c5700da6c328a57b572b7 (HEAD -> master)
+Author: Shubham <mhajan.shubh@gmail.com>
+Date:   Sun Dec 25 21:21:10 2022 +0530
+
+    Added more htmls
+
+commit aaa29ee0a40903eebdd302fb81c0e65560fcf375
+Author: Shubham <mhajan.shubh@gmail.com>
+Date:   Sun Dec 25 21:06:18 2022 +0530
+
+    Initial commit
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status -s
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status -s
+ M contact.html
+ M index.html
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git add contact.html
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status -s
+M  contact.html
+ M index.html
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$ git status -s
+ M "Git Basic Setup and How to use Notes.py"
+MM contact.html
+ M index.html
+
+SHUBH@SHUBHAM MINGW64 /d/Study Material/Never Stop Learning Something New/FullStack Web Development/Git (master)
+$
+
